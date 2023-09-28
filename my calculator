@@ -1,0 +1,32 @@
+strr = input("Please enter your name: ")
+print("Welcome, ", strr)
+
+str1=input("Please type an option: (Add, Minus, Multiply or Divide): ")
+
+print("Hello, ", strr , "You have selected ", str1, "Please type the following numbers:" )
+
+num1=input("Enter num1: ")
+num2=input("Enter num2: ")
+
+num1=int(num1)
+num2=int(num2)
+
+if str1=="add":
+    addition=num1+num2
+    print("Hello,", strr,',', "your answer is:", addition)
+    
+elif str1=="minus":
+    minus=num1-num2
+    print(minus)
+
+elif str1=="multiply":
+    multiply=num1*num2
+    print(multiply)
+
+elif str1=="divide":
+    divide=num1/num2
+    print(divide)
+
+else:
+    print("Please type the correct spellings, (Add, Minus, Multiply or Divide)")
+
